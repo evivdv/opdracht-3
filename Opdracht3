@@ -1,0 +1,41 @@
+# part 1 
+
+def greet(name): 
+      print("Hello, " + name)
+
+greet('Paul')
+
+person1 = {"name": "Paul"}
+print(person1["name"])
+
+#part 2
+
+def force(m1, planeten):
+  sum = m1 * planeten
+  round(sum, 1)
+  return sum
+
+planeten = {
+"Earth" : 9.798
+"Sun" : 274.00
+"Jupiter" : 24.92
+"Neptune" : 11.15
+"Saturn" : 10.44
+"Uranus" : 8.87
+"Venus" : 8.87
+ "mars": 3.71
+ "Mercury" : 3.7
+ "Moon" : 1.62
+ "Pluto" : 0.58
+}
+
+print(planeten["earth"]) 
+
+#part 3 
+def pull(m1, m2, d):
+    m1 = float(m1)
+    m2 = float(m2)
+    d = float(d)
+    G = (m1*m2)/d**2
+    return G * ((m1*m2)/d**2)
+
